@@ -1,0 +1,50 @@
+table {
+    margin: auto;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: #BFA690;
+}
+
+th {
+    background-color: #886e5a;
+    text-align: left;
+    padding: 15px;
+}
+
+td {
+    padding: 15px;
+}
+
+caption {
+    font-size: 30px;
+    padding: 10px;
+}
+
+#students {
+    padding: 30px;
+    margin-left: 45px;
+}
+
+#students fieldset {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 400px;
+    background-color: rgb(233, 210, 183);
+    font-size: 18px;
+}
+
+#students input[type="submit"] {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
